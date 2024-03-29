@@ -1,0 +1,482 @@
+/* common css start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+   background-color: #707070;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    vertical-align: middle;
+}
+
+
+/* common css end */
+
+/* preloader */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: #353535c4;
+  }
+  
+  #preloader #preloader-inner {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #3498db;
+    animation: spin 2s linear infinite
+  }
+  
+  #preloader #preloader-inner:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #e74c3c;
+    animation: spin 3s linear infinite
+  }
+  
+  #preloader #preloader-inner:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #f9c922;
+    animation: spin 1.5s linear infinite
+  }
+  @keyframes 
+  spin { 0% {
+  transform:rotate(0deg)
+  }
+  
+  to { transform: rotate(1turn) }
+  }
+/* preloader */
+
+/* home page start */
+
+
+
+
+/* nav part start */
+.navbar button i{
+    color: white;
+}
+ 
+.logo img{
+    width: 55%;
+}
+
+.navbar ul li{
+    margin-left: 10px;
+}
+.navbar{
+    background-color: black;
+  
+    padding: 0;
+}
+.navbar ul li:hover{
+    background-color: goldenrod;
+    color: black;
+}
+.navbar ul li span a{
+    color: #707070;
+}
+.navbar ul li a{
+    font-size: 22px;
+    font-family: 'Akira Expanded', sans-serif;
+    color: white;
+    position: relative;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.navbar ul li a:hover{
+    color: black !important;
+}
+.navbar ul li a::after{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color:white;
+    bottom: -5px;
+    left: 0;
+    transition: 0.5s;
+}
+.navbar ul li a:hover::after{
+    width: calc(100% - 0px) !important;
+}
+
+.navbar-toggler-icon{
+    background-color: white !important;
+} 
+.navbar-brand {
+	width: 20%;
+}
+/* nav -part end */
+/* banner part start */
+.b-t{
+    width: 100%;
+    position: relative;
+
+}
+.banner-main{
+    z-index: 1;
+}
+.banner-img{
+    height: 870px;
+ }
+
+.banner-text{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding-top:100px ;
+}
+.banner-text h2{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.banner-text h1{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: red;
+}
+.banner-text p{
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.ban-btn{
+    padding-top: 31px;
+}
+.ban-btn a:hover{
+    background-color: red;
+    border: 2px solid red;
+}
+.ban-btn a{
+    padding: 10px 20px;
+    border: 2px solid white;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-left: 5px;
+
+}
+#banner{
+    position: relative;
+}
+#banner .slick-dots{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
+
+}
+#banner .slick-dots li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 4px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+#banner .slick-dots li button{
+    height: 15px;
+    width: 15px;
+    border: none;
+    border-radius: 50%;
+    line-height: 15px;
+    text-align: center;
+    background-color: goldenrod;
+    opacity: 0;
+    color: goldenrod;
+}
+#banner .slick-dots li.slick-active button{
+    opacity: 1;
+}
+
+/* BANNER PART END */
+
+/* about part start */
+#about{
+    padding: 100px 0;
+}
+.about-header h3{
+    font-size: 50px;
+    font-family: 'Akira Expanded', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+.about-text{
+    height: 600px;
+    background-color: black;
+    padding: 120px 60px;
+    border-radius: 20px;
+}
+.about-image{
+    height: 600px;
+}
+.about-image img{
+    border-radius: 20px;
+    height: 100%;
+}
+.about-text p{
+    font-size: 23px;
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-weight: 400;
+    color: white;
+
+}
+.about-text h6{
+    font-size: 23px;
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-weight: 400;
+    color: white;
+    width: 1px;
+}
+.about-text img{
+    padding-top: 10px;
+}
+
+/* about part end */
+
+/* home page end */
+
+
+
+
+
+/* portfolio page start */
+
+#portfolio{
+    padding: 50px 0;
+}
+.portfolio-header h3{
+    font-size: 50px;
+    font-family: 'Akira Expanded', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+.video-lay{
+    height: 320px;
+}
+.video-image{
+    position: relative;
+    height: 350px;
+}
+.video-image img{
+    height: 100%;
+}
+.video-image1 {
+    position: relative;
+    height: 400px;
+}
+.video-image1 img{
+    height: 100%;
+}
+.video-lay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.537);
+    width: 100%;
+    height: 100%;
+    
+}
+.video-lay i{
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    line-height: 39px;
+    text-align: center;
+    background-color: goldenrod;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.portfolio-image{
+    height: 700px;
+}
+.portfolio-img{
+    height: 530px;
+}
+.portfolio-img img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio-image img{
+    width: 100%;
+    height: 100%;
+}
+.port-main{
+    row-gap: 20px;
+}
+/* portfolio page end */
+
+
+/* contact page start */
+
+.contact-header h3{
+    font-size: 50px;
+    font-family: 'Akira Expanded', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+.form-one{
+ width: 100%;   
+ padding-top: 20px; 
+}
+.form-one input{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-weight: 900;
+    border:none;
+}
+
+.form-two{
+    width: 100%;
+    padding-top: 20px;
+}
+.form-two input{
+    width: 102.2%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-weight: 900;
+    border: none;
+    
+    
+}
+.button-c button{
+    padding: 20px 100px;
+    font-size: 20px;
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-weight: 900;
+    color: white;
+    background-color: black;
+    border: none;
+    transition: 0.4s;
+    
+}
+.button-c button:hover{
+    background-color: goldenrod;
+    color: black;
+}
+.button-c{
+    text-align: right;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.contact-details h4{
+    font-size: 38px;
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 10px;
+}
+.contact-details{
+    padding: 20px 0;
+}
+/* contact page end */
+
+
+
+
+/* footer part start */
+#footer{
+    padding: 70px 0;
+    background-color: black;
+}
+.footer-icon ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.footer-icon ul li a i{
+    font-size: 30px;
+    height: 50px ;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background-color: white;
+    line-height: 50px;
+    color: goldenrod;
+    transition: all linear 0.3s;
+}
+
+.footer-icon ul li a i:hover{
+    background-color: goldenrod;
+    color: black;
+}
+.footer-icon p {
+    font-size: 20px;
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-weight: 400;
+    color: goldenrod;
+    padding-top: 20px;
+}
+
+/* footer part end */

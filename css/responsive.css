@@ -1,0 +1,286 @@
+@media (max-width: 575.98px) {
+    /* NAV PART START */
+    body{
+        overflow-x: hidden;
+    }
+    .nav {
+        width: 185px;
+    }
+    .logo img {
+        width: 150%;
+    }
+    .navbar ul li a {
+        font-size: 18px;
+    }
+    /* NAV PART END */
+    /* banner part start */
+    .banner-img {
+        height: 380px;
+       
+    }
+    
+    /* banner part end */
+    /* about part start */
+    #about {
+        padding: 45px 0;
+    }
+    .about-header h3 {
+        font-size: 33px;
+    }
+    .about-text p {
+        text-align: left;
+        font-size: 20px;
+    }
+    .about-text h6{
+        text-align: left;
+        font-size: 20px;
+    }
+    .about-text {
+        height: 590px;
+        padding: 49px 29px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .about-image {
+        height: 450px;
+    }
+    /* about part end */
+
+    /* portfolio page start */
+    .portfolio-header h3 {
+        font-size: 33px;
+    }
+    .video-image1 {
+        height: 250px;
+    }
+    .video-image {
+        height: 250px;
+    }
+    .portfolio-image {
+        height: 420px;
+    }
+    .portfolio-img {
+        height: 250px;
+    }
+    /* portfolio page end */
+  /* contact page start */
+  .contact-header h3 {
+	font-size: 33px;
+}
+.form-two input {
+	width: 107.2%;
+    font-size: 16px;
+}
+.form-one input {
+	font-size: 16px;
+}
+.button-c {
+	text-align: center;
+}
+.button-c button {
+	padding: 17px 60px;
+	font-size: 19px;
+
+}
+.contact-details h4 {
+	font-size: 18px;
+	text-align: center;
+}
+  /* contact page end */
+}
+
+
+@media (min-width: 576px) and (max-width: 766.98px) {
+   /* NAV PART START */
+   body{
+    overflow-x: hidden;
+}
+
+.nav {
+    width: 185px;
+}
+.logo img {
+    width: 130%;
+}
+.navbar ul li a {
+    font-size: 18px;
+}
+/* NAV PART END */
+/* banner part start */
+.banner-img {
+    height: 430px;
+   
+}
+
+/* banner part end */
+/* about part start */
+#about {
+    padding: 45px 0;
+}
+.about-header h3 {
+    font-size: 33px;
+}
+.about-text p {
+    text-align: left;
+    font-size: 20px;
+}
+.about-text h6{
+    text-align: left;
+    font-size: 20px;
+}
+.about-text {
+    height: 480px;
+    padding: 49px 29px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.about-image {
+    height: 580px;
+}
+/* about part end */
+
+/* portfolio page start */
+.portfolio-header h3 {
+    font-size: 33px;
+}
+.video-image1 {
+    height: 280px;
+}
+.video-image {
+    height: 280px;
+}
+.portfolio-image {
+    height: 300px;
+}
+.portfolio-img {
+	height: 300px;
+}
+
+/* portfolio page end */
+/* contact page start */
+.contact-header h3 {
+font-size: 33px;
+}
+.form-two input {
+width: 105.2%;
+font-size: 20px;
+}
+.form-one input {
+font-size: 20px;
+}
+.button-c {
+text-align: center;
+}
+.button-c button {
+padding: 17px 60px;
+font-size: 20px;
+
+}
+.contact-details h4 {
+font-size: 20px;
+text-align: center;
+}
+/* contact page end */
+   
+}
+
+
+
+@media (min-width: 767px) and (max-width: 991.98px) {
+  /* NAV PART START */
+  body{
+    overflow-x: hidden;
+}
+body {
+    font-size: 12px;
+}
+.nav {
+    width: 185px;
+}
+.logo img {
+    width: 100%;
+}
+.navbar ul li a {
+    font-size: 18px;
+}
+/* NAV PART END */
+/* banner part start */
+.banner-img {
+    height: 590px;
+   
+}
+
+/* banner part end */
+/* about part start */
+#about {
+    padding: 45px 0;
+}
+.about-header h3 {
+    font-size: 33px;
+}
+.about-text p {
+    text-align: left;
+    font-size: 20px;
+}
+.about-text h6{
+    text-align: left;
+    font-size: 20px;
+}
+.about-text {
+    height: 500px;
+    padding: 49px 29px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.about-image {
+    height: 500px;
+}
+/* about part end */
+
+/* portfolio page start */
+.portfolio-header h3 {
+    font-size: 33px;
+}
+.video-image1 {
+    height: 350px;
+}
+.video-image {
+    height: 340px;
+}
+.portfolio-image {
+    height: 390px;
+}
+.portfolio-img {
+	height: 390px;
+}
+
+/* portfolio page end */
+/* contact page start */
+.contact-header h3 {
+font-size: 33px;
+}
+.form-two input {
+width: 104.2%;
+font-size: 20px;
+}
+.form-one input {
+font-size: 20px;
+}
+.button-c {
+text-align: center;
+}
+.button-c button {
+padding: 17px 60px;
+font-size: 20px;
+
+}
+.contact-details h4 {
+font-size: 20px;
+text-align: center;
+}
+/* contact page end */
+   
+
+
+
+    }
